@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Positioning and display properties</title>
+<link href="style10.css" rel="stylesheet">
+</head>
+<body>
+    <!--------------------------------Positioning----------------->
+    <!--1. margin: it is used to give space outside the box or button or if nothing normally we need
+    to give space from left, right, bottom, top  to img, text, a tag etc.. we can use this
+    To give space fromn all sides  use : margin:100px; space is always given in pixels.--
+    if you want a space only from one side use according to that eg : if i want space from left side
+    i will use margin-left:100px;
+    and vice versa margin-top, margin-bottom, margin-right can be used
+    -->
+
+    <h1>Here we using margin</h1>
+
+    <!--2. Padding : padding is also used to giev spacing but it works only if there is any border line which makes box eg : button tag, input tag where we enter text etc...--------------------------------Positioning-----------------
+    if we want to gove space inside these borders then we use padding.
+    for all sides space left, right, down, up : use padding :200px;
+    for only one side space padding-left, padding-right, padding-down, padding-top.
+    
+    -->
+    <button>Sign up</button>
+
+    <!--3. position: absolute. this is also used to set position like margin.
+    if you used margin and it did not gave space then use this. here it counts position from beginning of the screen and in margin it counts position from currect position 
+   Here we use left, right, top, bottom.
+    eg : if we have h2 tag and we appply margin-left to it then currently whereber our tag it moves left from there. 
+    but if we apply position :absolute, left then counts from beginning of the screen
+    --->
+   <!--use margin-->
+    <h2>this is good for margin</h2>
+    <!--use absolute position-->
+    <button>this is good for position absolute</button>
+
+    <!--4. display properties : it gives the propertiues to put things in one line and in vertical order.
+    like horizontal arrangement or vertical arrangement we did in mit  app inventor. 
+    display:inline; this puts all things in one line
+    display:block; this puits all things in vertical line
+    display:none ; this means removing any display property menasn none meansnothing
+    display:inline-block; this also put things in one line
+    --->
+<ul><!--Navigation Bar -->
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+</ul>
+    <!-------------------Navigation Bar------------>
+    <!--This is the bar which is at top of the website. where home, about us etc is there.
+    which we will change acording to website. like in codevidhya dashboard we have myclasses, mydashboard, mycertificatiob etc..--
+    we use ul li tag to  create this and in style we use display:inline to put it it in one line
+    --->
+</body>
+</html>

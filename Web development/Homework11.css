@@ -1,0 +1,32 @@
+.L1,h1{
+display: inline;
+}
+
+.L1{
+width: 40px;
+height: 30px;
+}
+
+h1{
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+font-style: italic;
+color: darkgray;
+}
+
+.nb{
+width: 30px;
+height: 30px;
+display: inline;
+}
+
+body{
+background-image: url(cat-feline-back-simple-background-artwork-digital-art-minima.webp);
+}
+
+li{
+display: inline;
+margin-left: 130px;
+color: darkblue;
+}

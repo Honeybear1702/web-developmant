@@ -1,0 +1,19 @@
+h1{
+    margin-left:200px;/* this changes position fromn left around 200px */
+}
+button{
+    padding:13px; /* this gove space from all sides inside the button so whoch makes button bigger remmeber whenver we use padding that thing becomes bigger. padding is used less because it always used when border is there*/
+}
+h2{
+    margin-left:200px;
+    margin-top:10px;
+}
+button{
+    position:absolute;
+    left:200px;
+    top:10px;
+}
+li{
+    display:inline;
+    margin-left:30px;
+}

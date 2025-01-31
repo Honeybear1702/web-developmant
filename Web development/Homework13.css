@@ -1,0 +1,18 @@
+.batman{
+    height: 300px;
+}
+
+.batma{
+    height: 500px;
+}
+
+p{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+body{
+    background-color: black;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS</title>
+<style>
+h2{
+    color:green;
+    font-size:20px;
+    font-style: italic;
+    border:2px solid red;
+}
+button{
+    background-color: red;
+    width:100px;
+    height:100px;
+}
+
+</style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--------------------Different types of Styling------------------->
+    <!--Three ways in which we can do the styling:------------->
+    <!--1. Inline styling: In this we do styling inside the tag itself which means let say we want to style our p tag. go inside opening tag of p  and write the word style and start doing styling properties.
+    syntax : <p style="color:blue;"></p>
+    To do different style we have different properties  like color, background-color, font-size.
+    ------------->
+
+    <h1 style="color:blue; font-size: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style: italic; font-weight: 900; border: 2px solid red; ">This is inline style</h1>
+
+    <!--2. Internal style : Here we do all style in head tag. we use style tag tehre  and inside that bwe do all CSS.-------------
+    syntax : 
+
+    <style>
+     p{
+     color:blue;
+
+     }
+    </style>
+    -->
+
+    <h2>This internal style</h2>
+    <button>Sign up</button>
+
+    <!--3. External CSS : In this we do seperate styling in new file called as style.css. First create a new file and connect that file with html. using link tag
+    <link rel="stylesheet" href="style.css"> this whole line  in head tag to connect both html and css file
+    rest of the coding is same as internal css 
+
+    syntax : h2{
+    color:yellow;
+    }
+    -->
+
+    <input type="password">
+</body>
+</html>

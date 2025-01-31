@@ -1,0 +1,30 @@
+button{
+background-color: turquoise;
+color: black;
+width: 600px;
+height: 300px;
+}
+
+ button:hover{
+background-color: lightgreen;
+color: lightskyblue;
+ }
+
+ img:active{
+opacity: 0.8;
+/* opacity is used to make things visible and invible. if it towards one then it is dark in colour then if it is more towards the zero then the colour becomes light*/
+ }
+
+
+ /* Background Properties */
+
+ body{
+    background-image: url("png-clipart-cat-sleeping-on-top-of-brown-bear-emoji-cat-bear-pusheen-animation-sleeping-bear-mammal-animals-thumbnail.png");
+    background-size:cover;/* cover is used to cover the full page in case image is small. if we want to give our own size then we can also use
+    width and height  eg : background-size:100px 100px; first 100px is width and second 100px is height */
+    background-position: 100px 200px; /* 100px is x -axis and 200px is y-axis */
+    background-repeat:none;/*sometimes if image is small given to background then it repeats  to stop that we can use none. 
+    in order to repeat  the we use : background-repeat:repeat or repeat-x or repeat-y */
+    
+ }
+ 

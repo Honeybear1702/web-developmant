@@ -1,0 +1,55 @@
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: medium;
+    color: darkred;
+    margin-left:40px;
+   margin-top: 30px;
+}
+/*---------------------For giving space from left, right, up, down -------------*/
+
+/*margin-left: gives space from left side we give px more the poixel more the space from left side.
+
+eg: margin-left:20px;.
+
+Similarly  we margin-top:20px, margin-bottom:20px, margin-right:20px;
+
+if want space from all sides the use margin:20px */
+
+input{
+    /* to make size bigger of input  width and height*/
+    width:900px;
+    height:40px;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+select{
+    width:900px;
+    height:40px;
+    margin-left:30px;
+    margin-top:30px;
+}
+textarea{
+    width:900px;
+    height:300px;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+form{
+    background-color:lightgray;
+}
+
+button{
+    /*Whenveer box like thing comes always use width and height */
+    width:100px;
+    height:40px;
+    margin-left:30px;
+    margin-top:40px;
+    background-color: rgb(153, 2, 2);
+    color:white;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

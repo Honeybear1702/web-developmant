@@ -1,0 +1,113 @@
+.list ul li{
+display: inline;
+margin-left: 130px;
+}
+
+.shop{
+height: 300px;
+width: 400px;
+}
+
+.pic{
+width: 1200px;
+height: 300px;
+}
+
+ul{
+position: absolute;
+top: 20px;
+left: 100px;
+
+}
+
+.Click{
+position: absolute;
+top: 640px;
+left: 160px;
+background-color: rgb(255, 0, 0);
+color: darkblue;
+border-radius: 40px;
+width: 100px;
+height: 40px;
+}
+
+.c1{
+width: 400px;
+height: 300px;
+}
+
+.m1{
+width: 400px;
+height: 300px;
+}
+
+.cli{
+    position: absolute;
+    top: 640px;
+    left: 575px;
+    background-color: rgb(255, 0, 0);
+    color: darkblue;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.c{
+    position: absolute;
+    top: 640px;
+    left: 975px;
+    background-color: rgb(255, 0, 0);
+    color: darkblue;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.app{
+    position: absolute;
+    top: 1100px;
+    left: 395px;
+}
+
+.home{
+width: 1200px;
+height: 400px;
+}
+
+.a{
+  position:absolute;
+  top:1220px;
+  left:30px;
+  list-style:none;/* to remove bullets */
+  
+}
+li{
+    margin-top:20px;
+}
+.a1{
+  position:absolute;
+  top:1220px;
+  left:290px;
+  list-style:none;/* to remove bullets */
+}
+
+.a2{
+    position:absolute;
+    top:1220px;
+    left:525px;
+    list-style:none;/* to remove bullets */
+  }
+
+  .a3{
+    position:absolute;
+    top:1220px;
+    left:750px;
+    list-style:none;/* to remove bullets */
+  }
+
+  .a4{
+    position:absolute;
+    top:1220px;
+    left:1000px;
+    list-style:none;/* to remove bullets */
+  }

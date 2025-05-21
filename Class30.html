@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class 30</title>
+</head>
+<body>
+<button onclick="hello()">Click</button>
+<button id="c">Click me</button>
+<script>
+//As we have already used how to learn different kind of events using onclick, onkeydown, onmouseover, ect. as
+// over there we used to create a function seperately and quality using onclick ect.
+//There is another alternate way to use these events instead of creating the function seperately we can directly
+//cerate it inside an event.
+//  We create a button where on the click of the button a popup will appear
+//Method one: in this we create a function seperatly and then call it on the button
+
+function hello(){
+window.alert("My name is Hana")
+}
+
+// Meathod two: In this we use add event listener
+//add event listner helps you put a function and event together.
+//the benefit of the 2nd method is how we dont need to call it like the firest method
+let p=document.querySelector("#c")
+p.addEventListener("click",function(){
+window.alert("My name is Hana")
+})
+//html dom functions
+//hierarchy (the family tree) of html
+//html tag is the parent tag
+//it has tow children head tag and body tag
+//head tag and body tag are siblings
+//title tag is the child of the head tag
+//body tag has many children like h1, p,img tag
+//these are also called as nodes
+
+</script>
+</body>
+</html>

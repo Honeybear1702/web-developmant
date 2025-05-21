@@ -1,0 +1,103 @@
+.title{
+    font-size: 60px;
+    position: absolute;
+    left: 500px;
+    top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+body{
+    background-image: url(gaming\ background.avif);
+    background-size:cover;
+}
+
+.subheading1{
+    font-size: 30px;
+    position: absolute;
+    left: 120px;
+    top: 175px;
+    color: white;
+}
+
+.arcade{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 230px;
+}
+
+.arc{
+    width: 600px;
+    height: 375px;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+
+.About{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    font-size: 35px;
+    color: white;
+}
+
+.hi{
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    font-size: 30px;
+    color: white;
+    width: 400px;
+}
+
+.Game{
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    width: 400px;
+    height: 200px;
+}
+
+.Popular{
+    position: absolute;
+    top: 900px;
+    left: 925px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.rate{
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    width: 400px;
+    height: 300px;
+}
+
+.p{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    width: 600px;
+}
+
+.cat{
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+}
+
+.ga{
+    position: absolute;
+    top: 1100px;
+    left: 375px;
+    width: 400px;
+    height: 300px;
+}

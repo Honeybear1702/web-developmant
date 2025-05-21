@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+</head>
+<body>
+<input id="demo" onkeydown="keypressing()" onkeyup="keyreleasing()">
+<img src="coffee logo.png"width=30 height=30 onmouseover="img_incraese(this)" onmouseout="img_decrease(this)">
+<!--this works as img tag-->
+<script>
+
+    //-------------------------------Different types of events are------------------------
+    //1. onclick : when we click mouse on anything(button tag, label, input tag, image etc..) then something happes 
+    //2. onkeydown  : when we press a key from keyboard then something happens eg : when  we presa a key input tag
+    // it shows a pop-up notifier saying please details properly
+    //3. onmouseover and onmouseout : when we put our mouse on any tag then something happens for that we use onmouseover
+    //and when  we remove our mouse from that tag move out of it on screen then onmouseout is used.
+    //onmouseover is similar to hover effect in CSS.
+    //4. onload : it refreshes the screen 
+    //5. onsubmit : whenver there is form and we have entered any details in that and we need to submit that we use onsubmit
+
+    //out of this onclick and onkeydown is used alot. sometimes we use onmouseover and onmouseout also
+    //onload and onsubmit is used in rare situations.
+
+    //--------------------------onkeydown and onkeyup---------------------------
+  //Example: onkeydown act as press and onkeyup act as release
+  // wo when we press a key in input  color will chnage to red  and when we release the key chnage to green
+  //we create two functions one for press and one for release. in press we chnage color to red and in release w echnage color to green
+  // then call bothe the two functions at inputbox on onkeypress and onkeyrelease
+
+  ///----------------------------style change in Js ----------------------------
+  // when we want to chnage sny style property in Js always use following function
+  //document.getElementById("").style.propertyname=value
+
+    //
+   
+   function keypressing(){
+   document.getElementById("demo").style.backgroundColor="red"
+  }
+   function keyreleasing(){
+  document.getElementById("demo").style.backgroundColor="green"
+   }
+
+
+//--------------------------------onmouseover and onmouseout--------------------------------
+//onmouseover means when we put our mouse on any tag style or somthinh happens and when we put our mouse out on screen then style or thing changes back
+
+
+//Example : we will create a img. when we put on mouse on image then image szie increases and whne we put out mouse back on screen the 
+// image size decreases. call both functions on image on onmouseover and onmouseout
+
+function img_incraese(x){
+// ue width and height to increase or decrease the size. but we cannot write img tag name as it is used in HTML and we are in Js
+// except some exceptions like br tag
+// we will take  avariable  on whoch we use this width and hieght and later we replace it will img when we call the function
+x.width=100
+x.height=100    
+}
+
+ function img_decrease(x){
+x.width=60
+x.height=60
+ }
+
+    
+</script>
+    
+</body>
+</html>

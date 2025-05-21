@@ -1,0 +1,142 @@
+.logo{
+height: 45px;
+width: 100px;
+}
+
+.list ul li{
+display: inline;
+margin-left: 130px;
+position: relative;
+top: -50px;
+}
+
+body{
+background-color: rgb(255, 207, 216);
+}
+
+.img{
+    width: 1250px;
+    height: 400px;
+}
+
+.search{
+    position: absolute;
+top: 24px;
+left: 1000px;
+}
+
+.cake{
+width: 300px;
+height: 250px;
+}
+
+.ca1,.ca2,.ca3,.ca4{
+display: inline;
+margin-left: 60px;
+font-size: 30px;
+color: coral;
+}
+
+.cak{
+    display: inline;
+    width: 300px;
+    height: 350px;
+}
+
+h2{
+    font-size: 30px;
+    color: coral;
+}
+
+.c{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 250px
+    ;
+}
+
+h3{
+    font-size: 40px;
+    color: darksalmon;
+}
+
+.imag{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 1800px;
+    left: 700px;
+}
+
+.bake{
+    font-size: 30px;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.hy{
+    position: absolute;
+    top: 2547px;
+    left: 290px;
+}
+
+.fssai{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: 2535px;
+    left: 490px;
+}
+
+.fss{
+    position: absolute;
+    top: 2547px;
+    left: 570px;
+}
+
+.input,.b{
+    display: inline;
+    background-color: rgb(255, 179, 179);
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    border-color: lightcoral;
+}
+
+.div{
+    position: absolute;
+    top: 2562px;
+    left: 830px;
+}
+
+.u, .o, .w{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.truck{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2539px;
+
+}
+
+.duh{
+    width: 1000px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.ic{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2539px;
+    left: 220px;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Document</title>
+</head>
+<body>
+<label>Radius</label><br>
+<input type="text" id="ra"><br>
+<label>Volume</label><br>
+<input type="text" id="vo"><br>
+<button onclick="volume()">Calculate</button>
+<script>
+function volume(){
+    let r=document.getElementById("ra").value
+    let result=4/3*3.14*3*r*r*r
+    document.getElementById("vo").value=result
+    
+}
+</script>
+</body>
+</html>
